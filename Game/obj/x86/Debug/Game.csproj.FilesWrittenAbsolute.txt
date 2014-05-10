@@ -1,0 +1,9 @@
+/Users/developer/Projects/Game/Game/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/developer/Projects/Game/Game/obj/x86/Debug/Game.gtk-gui.gui.stetic
+/Users/developer/Projects/Game/Game/bin/Debug/Game.exe.mdb
+/Users/developer/Projects/Game/Game/bin/Debug/Game.exe
+/Users/developer/Projects/Game/Game/obj/x86/Debug/Game.exe
+/Users/developer/Projects/Game/Game/obj/x86/Debug/Game.exe.mdb
+/Users/developer/Projects/Game/Game/obj/x86/Debug/Game.Title.png
+/Users/developer/Projects/Game/Game/bin/Debug/libstetic.dll
+/Users/developer/Projects/Game/Game/obj/x86/Debug/Game.TitleV2.png

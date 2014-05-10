@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/Game.exe" internal="true" />
+    <widget-library name="../../../../../../Applications/Xamarin Studio.app/Contents/MacOS/lib/monodevelop/AddIns/MonoDevelop.GtkCore/libstetic.dll" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="561 191">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">RandomQ
+</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Image" id="image2">
+            <property name="MemberName" />
+            <property name="Pixbuf">resource:Game.TitleV2.png</property>
+          </widget>
+          <packing>
+            <property name="X">14</property>
+            <property name="Y">12</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button6">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">RAGE QUIT</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnButton6Clicked" />
+          </widget>
+          <packing>
+            <property name="X">487</property>
+            <property name="Y">16</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button5">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Credits</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">425</property>
+            <property name="Y">16</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button4">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Start</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnButton4Clicked" />
+          </widget>
+          <packing>
+            <property name="X">307</property>
+            <property name="Y">15</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Window" id="GameWindow" design-size="418 316">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Window</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <child>
+      <widget class="Gtk.Fixed" id="fixed2">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Button" id="button8">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Save</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">47</property>
+            <property name="Y">264</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="o1">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Option 1</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnO1Clicked" />
+          </widget>
+          <packing>
+            <property name="X">335</property>
+            <property name="Y">26</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="o2">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Option 2</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">336</property>
+            <property name="Y">61</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="o3">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Option 3</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">334</property>
+            <property name="Y">96</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="o4">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Option 4</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">335</property>
+            <property name="Y">127</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label1">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">HP:</property>
+          </widget>
+          <packing>
+            <property name="X">70</property>
+            <property name="Y">7</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label2">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">00</property>
+          </widget>
+          <packing>
+            <property name="X">93</property>
+            <property name="Y">8</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="txt">
+            <property name="MemberName" />
+            <property name="WidthRequest">227</property>
+            <property name="HeightRequest">170</property>
+            <property name="LabelProp" translatable="yes">label3</property>
+            <property name="UseMarkup">True</property>
+            <property name="Wrap">True</property>
+            <property name="Selectable">True</property>
+          </widget>
+          <packing>
+            <property name="X">77</property>
+            <property name="Y">53</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
