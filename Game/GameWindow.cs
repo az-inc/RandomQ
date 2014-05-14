@@ -18,35 +18,41 @@ public partial class GameWindow: Gtk.Window
 		Random mainr = new Random();
 		int itm1 = mainr.Next(0, 100);
 		plc = mainr.Next(1, 11);
-		if (plc == 1) {
-			place = " forest";
-		}
-		if (plc == 2) {
-			place = " dungeon";
-		}
-		if (plc == 3) {
-			place = " lair";
-		}
-		if (plc == 4) {
-			place = " house";
-		}
-		if (plc == 5) {
-			place = " plain";
-		}
-		if (plc == 6) {
-			place = " battle field";
-		}
-		if (plc == 7) {
-			place = " moantian";
-		}
-		if (plc == 8) {
-			place = " Snow cover forest";
-		}
-		if (plc == 9) {
-			place = " The surface a small inahbitable planetoid";
-		}
-		if (plc == 10) {
-			place = " Back ally way of a city";
+		
+		switch (plc) {
+			case 1:
+				place = " forest";
+				break;
+			case 2:
+				place = " dungeon";
+				break;
+			case 3:
+				place = " lair";
+				break;
+			case 4:
+				place = " house";
+				break;
+			case 5:
+				place = " plain";
+				break;
+			case 6:
+				place = " battle field";
+				break;
+			case 7:
+				place = " moantian";
+				break;
+			case 8:
+				place = " Snow cover forest";
+				break;
+			case 9:
+				place = " The surface a small inahbitable planetoid";
+				break;
+			case = 10:
+				place = " Back ally way of a city";
+				break;
+			default:
+				place = "error parsing place";
+				break;
 		}
 
 
